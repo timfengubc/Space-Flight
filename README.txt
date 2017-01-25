@@ -1,5 +1,8 @@
 Space Runner
 
+Play deployed version (use Firefox):
+https://timmotee.bitbucket.io/
+
 ##########################
 G A M E  M E C H A N I C S
 ##########################
