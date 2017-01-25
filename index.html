@@ -1,0 +1,82 @@
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>Final Project</title>
+    <style>
+      body { margin: 0; } canvas {width: 100%;
+      height: 100% }
+    </style>
+    <link href='http://fonts.googleapis.com/css?family=Abel' rel='stylesheet' type='text/css'>
+    <script src="js/three.min.js"></script>
+    <script src="js/XHRLoader.js"></script>
+    <script src="js/DDSLoader.js"></script>
+    <script src="js/MTLLoader.js"></script>
+    <script src="js/OBJLoader.js"></script>
+    <script src="js/SourceLoader.js"></script>
+    <script src="js/OrbitControls.js"></script>
+    <script src="js/KeyboardState.js"></script>
+    <script src="js/Raycaster.js"></script>
+  </head>
+  <body>
+    <div id="startmenu" style=
+      "position: fixed;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      display: block; 
+      cursor: none;
+      font-family: Abel;
+      text-align:center;
+      color: #57fad7;
+      font-size: 2.5vw;
+      margin: auto;
+      text-shadow:0px 0px 0 rgb(208,208,208),1px 1px 0 rgb(171,171,171),2px 2px 0 rgb(134,134,134),3px 3px 0 rgb(97,97,97), 4px 4px 0 rgb(60,60,60),5px 5px 4px rgba(0,0,0,0),5px 5px 1px rgba(0,0,0,0.5),0px 0px 4px rgba(0,0,0,.2);
+      display: block;">
+      W/A/S/D to control the ship<br />
+      Collect rings +1, avoid red blocks<br />
+      Use mouse to shoot: green blocks +1, red blocks -1<br />
+      Collect blue diamond for bonus (All red blocks become green blocks)<br />
+      PRESS ENTER TO START!
+    </div> 
+    <div id="gamecanvas" style="
+      display: block;">
+    <div id="crosshair" style=
+      "position: fixed;
+      cursor: none;
+      display: block;">
+      <img src = "images/crosshair.png" style=
+      "width: 50%;
+      height: 50%;
+      margin: 0  auto;"></img>
+    </div>
+    <div id="fps" style=
+      "position: absolute; 
+      cursor: none;
+      top: 1%; 
+      left: 1%; 
+      font-family: Abel;
+      color: #57fad7;
+      font-size: 2.5vw;
+      text-shadow:0px 0px 0 rgb(208,208,208),1px 1px 0 rgb(171,171,171),2px 2px 0 rgb(134,134,134),3px 3px 0 rgb(97,97,97), 4px 4px 0 rgb(60,60,60),5px 5px 4px rgba(0,0,0,0),5px 5px 1px rgba(0,0,0,0.5),0px 0px 4px rgba(0,0,0,.2);
+      display: block;">
+    </div> 
+    <div id="overlaytext" style=
+      "position: absolute; 
+      cursor: none;
+      bottom: 1%; 
+      right: 1%; 
+      font-family: Abel;
+      color: #57fad7;
+      font-size: 2.5vw;
+      text-shadow:0px 0px 0 rgb(208,208,208),1px 1px 0 rgb(171,171,171),2px 2px 0 rgb(134,134,134),3px 3px 0 rgb(97,97,97), 4px 4px 0 rgb(60,60,60),5px 5px 4px rgba(0,0,0,0),5px 5px 1px rgba(0,0,0,0.5),0px 0px 4px rgba(0,0,0,.2);
+      display: block;">
+    </div> 
+    <div id= "WebGLCanvas" style = 
+      "cursor: none;
+      display: block;">
+      <script src="main.js"></script>
+    </div>
+  </div>
+</body>
+</html>
+

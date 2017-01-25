@@ -1,0 +1,34 @@
+Grace Days: 1
+
+Infinite Running Space Shooter!
+
+Game Mechanics:
+
+Fly the spaceship through infinite space, shoot down green blocks and fly through/collect rings
+to gain points, avoiding the red blocks. Shooting down red blocks will deduct the score.
+
+Collect a blue gem to initiate a 20 second
+bonus invincibility where all red blocks become green blocks and you cannot lose.
+
+WASD to control the position of the spaceship, located in one of 9 quadrants.
+___ ___ ___
+_1_|_2_|_3_
+_4_|_5_|_6_
+_7_|_8_|_9_
+
+1 = top left (AW)
+2 = top (W)
+3 = top right (WD)
+4 = left (A)
+5 = centre (nothing)
+6 = right (D)
+7 = bottom left (AS)
+8 = bottom (S)
+9 = bottom right (SD)
+
+Switch between 2 different camera views using B
+- Behind/Above the spaceship: perspective view above/behind the spaceship, slightly easier to aim and shoot cubes.
+ - Behind the spaceship: perspective view at level with the spaceship behind it, similar to the minimap
+
+
+Sources:
