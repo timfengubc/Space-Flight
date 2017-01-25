@@ -1,6 +1,4 @@
-Grace Days: 1
-
-Superspace Bros!
+Space Runner
 
 ##########################
 G A M E  M E C H A N I C S
